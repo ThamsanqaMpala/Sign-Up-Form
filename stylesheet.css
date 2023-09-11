@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(179, 225, 226);
+    width: 1200px;
+    padding-left: 65px;
+}
+container{
+    border: 10px solid black;
+    display: flex;
+}
+
+
+.image{
+    border: 10px solid rgb(255, 0, 0);
+    width: 400px;
+    height: 600px;
+}
+
+.signup{
+    border: 10px solid rgb(0, 46, 250);
+    
+    background-color: aliceblue;
+    flex: 1;
+    color: black;
+    flex-direction: column;
+}
+
+form{
+    border: 10px solid rgb(253, 0, 118);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .child1{
+    border: 10px solid rgb(251, 255, 0);
+    flex: 1;
+}
+
+form .child2{
+    border: 10px solid black;
+    flex: 1;
+    background-color: brown;
+}
+
+form .child3{
+    border: 10px solid rgb(0, 238, 255);
+    flex: 1;
+}
